@@ -104,6 +104,14 @@ h4 {
 	.list-career {
 		text-align: center;
 	}
+
+	.copy {
+		background-color: rgba(44,62,80,.7);
+		border-radius: 5px;
+		border: 1px solid #34495e;
+		padding: 10px;
+	}
+
 	.form {
 		background-color: #ffffff;
 		border-radius: 5px;
