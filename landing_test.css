@@ -55,7 +55,7 @@ h4 {
 	.logo-for {
 		color: #f0ad4e !important;
 		font-style: italic;
-		font-size: 65%;
+		font-size: 80%;
 	}
 .container-table {
 	display: table;
@@ -74,10 +74,6 @@ h4 {
 
 	.content h1, .content h3 {
 		text-align: left;
-	}
-
-	.form h3 {
-		padding: 0 0 25px 0 !important;
 	}
 
 	.content p, .content h1, .content h3, .content li {
@@ -123,7 +119,14 @@ h4 {
 			margin-top: 10px;
 		}
 
-		.form h3 {
+		.form h4 {
+			padding: 0 0 25px 0 !important;
+			font-size: 16px;
+			font-weight: 300;
+		}
+
+
+		.form h3, .form h4 {
 			text-align: center;
 			text-shadow: 0 0 0 transparent;
 		}
@@ -150,17 +153,20 @@ h4 {
 .triple {
 	padding: 100px 0 0 0;
 	text-align: center;
-	background-color: #68717C;
+	background-color: #f7f7f7;
 	overflow: hidden;
 }
 
 	.triple h1 {
-		margin-bottom: 20px;
+		margin-top: -20px;
+		margin-bottom: 50px;
 		text-align: center;
+		font-weight: 300;
+
 	}	
 
 	.triple h1, .triple h3, .triple p {
-		color: #ecf0f1;
+		color: #52637b;
 	}
 
 	.icon {
@@ -186,7 +192,7 @@ h4 {
 
 
 	.chart {
-		background-color: #ecf0f1;
+		background-color: #52637b;
 		border-radius: 5px;
 		color: #2c3e50;
 		margin: 50px 0;
@@ -233,6 +239,10 @@ h4 {
 		text-align: center;
 	}
 
+	.double-feature h3 {
+		font-weight: 300;
+	}
+	
 	.testimonials.col-md-6 {
 		margin: 20px;
 	}
